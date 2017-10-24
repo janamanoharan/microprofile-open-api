@@ -29,26 +29,27 @@ import org.eclipse.microprofile.openapi.models.Extensible;
 public interface Info extends Constructible, Extensible {
 
 	/**
-     * Returns the title for the application for this instance of Info
-     *
-     * @return the title of the application
-     */
+	   * Returns the title for the application for this instance of Info
+	   *
+	   * @return the title of the application
+	   **/
+
 	String getTitle();
 
 	/**
-	 * Sets this Info instance's title for the application to the given title.
-     *
-     * @param title the title of the application
-     */
+	   * Sets this Info instance's title for the application to the given title.
+	   *
+	   * @param title the title of the application
+	   */
 	void setTitle(String title);
 
 	/**
-	* Sets this Info instance's title for the application to the given title and
-	* returns this instance of Info
-	*
-	* @param title the title of the application
-	* @return this Info instance
-	*/
+	   * Sets this Info instance's title for the application to the given title and
+	   * returns this instance of Info
+	   *
+	   * @param title the title of the application
+	   * @return this Info instance
+	   */
 	Info title(String title);
 
 	/**
